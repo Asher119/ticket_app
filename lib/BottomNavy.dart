@@ -11,7 +11,7 @@ class BottomnavyScreen extends StatefulWidget {
   State<BottomnavyScreen> createState() => _BottomnavyScreenState();
 }
 
-int currentindex = 0; 
+int currentindex = 0;   
 final screen = [
   Home(),
 
