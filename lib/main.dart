@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:tickets_app/Animation.dart';
 import 'package:tickets_app/BottomNavy.dart';
 import 'package:tickets_app/ContactPerson.dart';
-import 'package:tickets_app/Demo.dart';
 import 'package:tickets_app/Home.dart';
+import 'package:tickets_app/Icons.dart';
+import 'package:tickets_app/Loader.dart';
 import 'package:tickets_app/OnboardScreen.dart';
 import 'package:tickets_app/PassengerInfo.dart';
 import 'package:tickets_app/SignIn.dart';
@@ -25,7 +27,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: BottomnavyScreen(),
+      home: Onboardscreen(),
     );
   }
 }

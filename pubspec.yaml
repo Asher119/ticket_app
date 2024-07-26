@@ -36,6 +36,10 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.6
   bottom_navy_bar: 
+  animated_floating_buttons: ^0.0.2
+  animated_icon: ^0.0.9
+  flutter_animate: ^4.5.0
+  loading_icon_button: ^0.0.6
 
 dev_dependencies:
   flutter_test:

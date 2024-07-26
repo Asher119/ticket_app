@@ -339,8 +339,10 @@ class _OnboardscreenState extends State<Onboardscreen> {
         children: [
           InkWell(
             onTap: () {
-              //  Get.toNamed("/otp");
-              //   AuthController().alReadyLoginApi();
+              Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                              builder: (context) =>Onboardscreen()));
             },
             child: Text(
               'Skip',
